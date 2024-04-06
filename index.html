@@ -10,15 +10,17 @@
 </head>
 <body>
   <header class=" bg-zinc-800 text-white flex justify-around items-center h-20 p-7 fixed top-0 w-full z-10 ">
-    <div>ERICK KRAMER</div>
-    <nav class=" container w-[650px] flex items-center justify-center ">
-      <ul class=" flex items-center gap-9 text-lg" id="menu">
-        <li class="cursor-pointer hover:text-blue-700 transition-colors" id="home">Home</li>
-        <li class="cursor-pointer hover:text-blue-700 transition-colors" id="project">Projects</li>
-        <!-- <li class="cursor-pointer hover:text-blue-700 transition-colors" id="experience">Experience</li> -->
-        <li class="cursor-pointer hover:text-blue-700 transition-colors" id="contact">Contacts</li>
-      </ul>
-    </nav>
+    <div class="container flex items-center mx-auto justify-between ">
+      <div class="min-w-36 max-md:text-[16px]">ERICK KRAMER</div>
+      <nav class=" w-[650px] flex items-center justify-end">
+        <ul class=" flex items-center gap-7 text-lg max-md:text-[16px]" id="menu">
+          <li class="cursor-pointer hover:text-blue-700 transition-colors" id="home">Home</li>
+          <li class="cursor-pointer hover:text-blue-700 transition-colors" id="project">Projects</li>
+          <!-- <li class="cursor-pointer hover:text-blue-700 transition-colors" id="experience">Experience</li> -->
+          <li class="cursor-pointer hover:text-blue-700 transition-colors" id="contact">Contacts</li>
+        </ul>
+      </nav>
+    </div>
   </header>
   <main class=" bg-zinc-900 text-zinc-50 mt-20" id="homeDiv">
     <div class="flex items-center justify-center pt-7">
@@ -46,9 +48,9 @@
       <img src="../public/atom(1).png" alt="React" class="hover:scale-125 transition-all">
       <img src="../public//icons8-node-js-48.png" alt="node.js" class=" w-16 hover:scale-125 transition-all">
     </div>
-    <section class=" flex justify-center items-center p-6 flex-col gap-6 mb-6" id="projectsDiv">
+    <section class=" flex justify-center items-center p-6 flex-col gap-6 mb-6">
       <h1 class=" text-4xl text-blue-700 font-bold mb-8">Projects</h1>
-      <div class="flex  justify-center items-center gap-7 flex-wrap">
+      <div class="flex justify-center items-center gap-7 flex-wrap">
         <div class="w-80 h-60 rounded bg-blue-700 border-2 border-zinc-500 hover:scale-110 transition-all cursor-pointer">
           <a href="https://github.com/ERICK-KRAMER/Spotify_Api" target="_blank">
             <img src="../public/spotify.png" alt="image" class=" h-44">
@@ -62,7 +64,19 @@
           </a>
         </div>
         <div class="w-80 h-60 rounded bg-blue-700 border-2 border-zinc-500 hover:scale-110 transition-all cursor-pointer">
-          <a href="" target="_blank">
+          <a href="https://github.com/ERICK-KRAMER/E-Commerce" target="_blank">
+            <img src="../public/E-commerce.png" alt="estoque" class=" h-44">
+            <div class="px-5 py-1 flex justify-between bg-zinc-700 rounded-bl rounded-br items-center">
+              <div>
+                <small class="text-gray-300">Click here to visit</small>
+                <h1 class="text-xl font-semibold">E-Commerce</h1>
+              </div>
+              <span class="material-symbols-outlined">north_east</span>
+            </div>
+          </a>
+        </div>
+        <div class="w-80 h-60 rounded bg-blue-700 border-2 border-zinc-500 hover:scale-110 transition-all cursor-pointer">
+          <a href="https://github.com/ERICK-KRAMER/Loja_react_node.js" target="_blank">
             <img src="../public/Sem título.png" alt="estoque" class=" h-44">
             <div class="px-5 py-1 flex justify-between bg-zinc-700 rounded-bl rounded-br items-center">
               <div>
@@ -73,6 +87,19 @@
             </div>
           </a>
         </div>
+        <div class="w-80 h-60 rounded bg-blue-700 border-2 border-zinc-500 hover:scale-110 transition-all cursor-pointer">
+          <a href="https://github.com/ERICK-KRAMER/App-Delivery" target="_blank">
+            <img src="../public/DeliveryApp.png" alt="login" class=" h-44">
+            <div class="px-5 py-1 flex justify-between bg-zinc-700 rounded-bl rounded-br items-center">
+              <div>
+                <small class="text-gray-300">Click here to visit</small>
+                <h1 class="text-xl font-semibold">App Delivery</h1>
+              </div>
+              <span class="material-symbols-outlined">north_east</span>
+            </div>
+          </a>
+        </div>
+      </div>
         <div class="w-80 h-60 rounded bg-blue-700 border-2 border-zinc-500 hover:scale-110 transition-all cursor-pointer">
           <a href="https://github.com/ERICK-KRAMER/Login" target="_blank">
             <img src="../public/login.png" alt="login" class=" h-44">
@@ -96,7 +123,7 @@
         <p class=" text-gray-400">
           Full Stack software engineer experienced in designing and implementing robust, scalable and innovative web solutions. Adept at leveraging a comprehensive skill set that spans front-end and back-end technologies. 
         </p>
-    </span>
+      </span>
       <div class="email flex gap-3 items-center mt-4 cursor-pointer w-72">
         <img src="../public/mail.png" alt="Mail Icon" class="icon mail transition-all hover:scale-150">
         <a href="mailto:erickkramer@outlook.pt?subject=Vaga%20de%20Estagio&body=Olá,%20estou%20entrando%20em%20contato%20..." target="_blank">
